@@ -32,4 +32,3 @@ Route::get('/posts/{id}', function ($id) {
 Route::get('/search', function(Request $request) {
    return $request->query('q');
 });
-
